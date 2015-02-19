@@ -1221,3 +1221,8 @@
 			{
 				text-align: center;
 			}
+
+	table {
+		width: 100px;
+		height: 100px;
+	}
