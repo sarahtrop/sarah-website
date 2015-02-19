@@ -689,7 +689,7 @@
 	#header
 	{
 		position: relative;
-		background-image: url('../images/divingboard.JPG');
+		background-image: url("../images/divingboard.JPG");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -1224,7 +1224,8 @@
 
 /* Contra Dancing Table */
 	.contra table {
-		width: 50px;
-		height: 50px;
+		width: 300px;
+		height: 300px;
 		padding: 5px 5px 5px 5px;
+		border: 1px solid black;
 	}
