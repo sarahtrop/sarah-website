@@ -1411,6 +1411,7 @@ ol ol {
   padding-left: 0;
   margin-left: -5px;
   list-style: none;
+  
 }
 .list-inline > li {
   display: inline-block;
@@ -2241,9 +2242,9 @@ th {
   text-align: left;
 }
 .table {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 20px;
+  width: 100px;
+  max-width: 100px;
+  margin-bottom: 10px;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
