@@ -516,12 +516,14 @@
 			float: left;
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
+			background-color: white;
 		}
 
 		.image.right {
 			float: right;
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
+			background-color: white;
 		}
 
 		.image.left, .image.right {
