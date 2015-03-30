@@ -12,6 +12,11 @@
 	color: #77D768;
 }
 
+.media img {
+	width: 20px;
+	height: 20px;
+}
+
 .hello {
 	text-align: center;
 	font-size: 65pt;
