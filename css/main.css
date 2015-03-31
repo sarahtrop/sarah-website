@@ -54,12 +54,13 @@
 	font-style: normal;
 }
 
-.links a {
+.links a{
 	font-size: 12pt;
 	font-family: "Lato", sans-serif;
 	color: #BF88F2;
-	text-align: right;
 	cursor: pointer;
+	padding-left: 2px;
+	float: right;
 }
 
 .links a:hover {
