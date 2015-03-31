@@ -54,11 +54,11 @@
 	font-style: normal;
 }
 
-.links {
-	font-size: 1pt;
+.links a {
+	font-size: 12pt;
 	font-family: "Lato", sans-serif;
 	color: #BF88F2;
-	text-align: center;
+	text-align: right;
 	cursor: pointer;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .information {
-	font-size: 14pt;
+	font-size: 18pt;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
 	text-align: left;
@@ -99,7 +99,7 @@
 }
 
 .about {
-	font-size: 24pt;
+	font-size: 18pt;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
 	text-align: left;
@@ -107,6 +107,7 @@
 }
 
 .about a {
+	font-size: 18pt;
 	font-style: italic;
 	color: #61219A;
 }
@@ -118,7 +119,7 @@
 .interests {
 	list-style-type: none;
 	text-align: center;
-	font-style: italic;
+	color: #61219A;
 }
 
 .purple-section img {
