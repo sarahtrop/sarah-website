@@ -1,6 +1,6 @@
 .social {
 	text-align: center;
-	padding-top: 100px;
+	padding-bottom: 20px;
 }
 
 .social a {
@@ -41,6 +41,10 @@
 	padding-bottom: 30px;
 }
 
+.trisarahtrops img {
+	width: 100px;
+}
+
 .wideContentBox {
 	height:100%;
 }
@@ -54,12 +58,12 @@
 	font-style: normal;
 }
 
-.links a{
+.links a {
 	font-size: 12pt;
 	font-family: "Lato", sans-serif;
 	color: #BF88F2;
 	cursor: pointer;
-	padding-left: 2px;
+	padding-left: 10px;
 	float: right;
 }
 
