@@ -87,28 +87,28 @@
 }
 
 .information p {
-	font-size: 13pt;
+	font-size: 15pt;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
 	text-align: left;
 	cursor: pointer;
 }
 
-.about p {
-	font-size: 14pt;
+.about {
+	font-size: 20pt;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
 	text-align: left;
 	cursor: pointer;
 }
 
-.about p a {
+.about a {
 	font-size: 16pt;
 	color: #BF88F2;
 	font-style: italic;
 }
 
-.about p a:hover {
+.about a:hover {
 	color: #61219A;
 }
 
