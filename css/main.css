@@ -111,13 +111,13 @@
 	cursor: pointer;
 }
 
-.about a {
+.about p a {
 	font-size: 16pt;
 	color: #4A494B;
 	font-style: italic;
 }
 
-.about a:hover {
+.about p a:hover {
 	color: #61219A;
 }
 
