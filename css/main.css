@@ -96,7 +96,7 @@
 }
 
 .information p {
-	font-size: 14pt;
+	font-size: 13pt;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
 	text-align: left;
@@ -104,7 +104,7 @@
 }
 
 .about p {
-	font-size: 16pt;
+	font-size: 14pt;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
 	text-align: left;
@@ -112,7 +112,8 @@
 }
 
 .about p a {
-	font-size: 18pt;
+	font-size: 16pt;
+	color: #4A494B;
 	font-style: italic;
 }
 
