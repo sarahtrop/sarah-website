@@ -49,7 +49,7 @@
 	height:100%;
 }
 
-.text {
+.text p {
 	font-family: "Raleway";
 	text-align: left;
 	font-size: 22px;
@@ -95,7 +95,7 @@
 	color: #77D768;
 }
 
-.information {
+.information p {
 	font-size: 20pt;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
@@ -103,7 +103,7 @@
 	cursor: pointer;
 }
 
-.about {
+.about p {
 	font-size: 20pt;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
@@ -114,11 +114,10 @@
 .about a {
 	font-size: 20pt;
 	font-style: italic;
-	color: #61219A;
 }
 
 .about a:hover {
-	color: #77D768;;
+	color: #61219A;
 }
 
 .interests {
