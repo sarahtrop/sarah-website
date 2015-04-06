@@ -73,7 +73,7 @@
 	border-top: thick solid #BF88F2;
 }
 
-.infotitle {
+.infotitle a {
 	font-size: 20pt;
 	font-family: "Lato", sans-serif;
 	color: #61219A;
