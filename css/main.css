@@ -73,13 +73,16 @@
 	border-top: thick solid #BF88F2;
 }
 
-.infotitle a {
+.infotitle {
 	font-size: 20pt;
 	font-family: "Lato", sans-serif;
-	color: #61219A;
 	text-align: center;
 	cursor: pointer;
 	font-style: bold;
+}
+
+.infotitle a {
+	color: #61219A;
 }
 
 .infotitle a:hover {
@@ -87,7 +90,7 @@
 }
 
 .information {
-	font-size: 15pt;
+	font-size: 1em;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
 	text-align: left;
@@ -95,7 +98,7 @@
 }
 
 .about {
-	font-size: 20pt;
+	font-size: 1.5em;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
 	text-align: left;
@@ -103,7 +106,7 @@
 }
 
 .about a {
-	font-size: 16pt;
+	font-size: 1.7em;
 	color: #BF88F2;
 	font-style: italic;
 }
