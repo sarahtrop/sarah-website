@@ -94,12 +94,16 @@
 	color: #77D768;
 }
 
-.information {
-	font-size: 1em;
+.information a {
+	font-size: 0.7em;
 	font-family: "Lato", sans-serif;
 	color: #4A494B;
 	text-align: left;
 	cursor: pointer;
+}
+
+.information a:hover {
+	color: #4A494B;
 }
 
 .about {
