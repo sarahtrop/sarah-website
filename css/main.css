@@ -157,6 +157,11 @@
 	height: 50px;
 }
 
+.ignite img {
+	width: 40px;
+	height: 60px;
+}
+
 .myFace img {
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
