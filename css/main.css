@@ -218,14 +218,14 @@
 	-ms-transition-duration: 0.5s, 0.3s;
 };
 
-.appScreens img {
+.appScreens + img[class~="app"]{
 	width:200px;
 	height:355px;
 	text-align: center;
 }
 
 
-.webScreens img {
+.webScreens + img[class~="web"]{
 	width:200px;
 	height:350px;
 	text-align: center;
