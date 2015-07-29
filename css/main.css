@@ -218,7 +218,7 @@
 	-ms-transition-duration: 0.5s, 0.3s;
 };
 
-.information a i{        
+.information a i {        
         text-align: center;
         width: 20px;
         height: 20px;
@@ -233,27 +233,44 @@
 
 .appLogo img:hover {
      color: #4A494B;
+     border-radius: 2px;
 }
 
-.purple-section + span[class~="appScreens"] img{
-        width:200px;
-        height:355px;
-        text-align: center;
+.appScreens img{
+    width:200px;
+    height:355px;
+    position: center;
+    filter: none;
+	-webkit-filter: none;
+	-moz-filter: none;
+	-o-filter: none;
+	-ms-filter: none;
+	margin-right: 20px;
+	border: #4A494B;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2px;
 }
 
-.purpleSection + span[class~="webScreens"] img{
-        width:200px;
-        height:350px;
-        text-align: center;
+.webScreens img{
+    width:200px;
+    height:350px;
+    text-align: center;
+    position: center;
+    filter: none;
+	-webkit-filter: none;
+	-moz-filter: none;
+	-o-filter: none;
+	-ms-filter: none;
+	margin-right: 10px;
 }
 
 .projectTitle {
-        font-size: 18pt;
-        font-family: "Lato", sans-serif;
-        alignContent: center;
-        //text-align: center;
-        //position: center;
-        cursor: pointer;
-        font-style: bold;
-        color: #61219A;
+    font-size: 25pt;
+    font-family: "Lato", sans-serif;
+    font-style: bold;
+    color: #61219A;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 5px;
 }
