@@ -218,15 +218,42 @@
 	-ms-transition-duration: 0.5s, 0.3s;
 };
 
-.appScreens + img[class~="app"]{
-	width:200px;
-	height:355px;
-	text-align: center;
+.information a i{        
+        text-align: center;
+        width: 20px;
+        height: 20px;
 }
 
+.appLogo img {
+     text-align: center;
+     width: 20px;
+     height: 20px;
+     color: #BF88F2;
+}
 
-.webScreens + img[class~="web"]{
-	width:200px;
-	height:350px;
-	text-align: center;
+.appLogo img:hover {
+     color: #4A494B;
+}
+
+.purple-section + span[class~="appScreens"] img{
+        width:200px;
+        height:355px;
+        text-align: center;
+}
+
+.purpleSection + span[class~="webScreens"] img{
+        width:200px;
+        height:350px;
+        text-align: center;
+}
+
+.projectTitle {
+        font-size: 18pt;
+        font-family: "Lato", sans-serif;
+        alignContent: center;
+        //text-align: center;
+        //position: center;
+        cursor: pointer;
+        font-style: bold;
+        color: #61219A;
 }
