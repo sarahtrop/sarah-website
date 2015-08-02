@@ -218,12 +218,6 @@
 	-ms-transition-duration: 0.5s, 0.3s;
 };
 
-.information a i {        
-        text-align: center;
-        width: 20px;
-        height: 20px;
-}
-
 .appLogo img {
      text-align: center;
      width: 20px;
@@ -273,4 +267,22 @@
 	text-align: center;
 	cursor: pointer;
 	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+
+.information i {
+	color: #BF88F2;
+	font-size: 2.5em;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.information i:hover {
+	color: #77D768;
+}
+
+.information i img {
+	width: 20px;
+	height: 20px;
 }
