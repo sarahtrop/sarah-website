@@ -169,7 +169,7 @@
 };
 
 .myFace img {
-/*	filter: grayscale(100%);
+	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
@@ -182,7 +182,7 @@
 	width:200px;
 	height:200px;
 }
-/*
+
 .myFace img:hover {
 	filter: none;
 	-webkit-filter: none;
@@ -194,7 +194,7 @@
 	-moz-transition-duration: 0.5s, 0.3s;
 	-o-transition-duration: 0.5s, 0.3s;
 	-ms-transition-duration: 0.5s, 0.3s;
-}; */
+};
 
 .crew img {
 	width:1000px;
