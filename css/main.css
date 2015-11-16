@@ -152,21 +152,11 @@
 	height: 80px;
 }
 
-.crew img {
-	width:1000px;
-	height:200px;
-}
-
-.appLogo img {
+.appLogo {
      text-align: center;
-     width: 30px;
-     height: 30px;
-     color: #BF88F2;
-}
-
-.appLogo img:hover {
-     color: #4A494B;
-     border-radius: 2px;
+     height: 100px;
+     padding-right: 5px;
+     padding-left: 5px;
 }
 
 .appScreens img{
@@ -186,8 +176,8 @@
 }
 
 .webScreens img{
-    width:300px;
-    height:525px;
+    width:310px;
+    height:505.9px;
     text-align: center;
     position: center;
     filter: none;
@@ -229,4 +219,10 @@
 
 ul {
 	display: block;
+}
+
+.painting img {
+	height: 200px;
+	padding-right: 5px;
+	padding-left: 5px;
 }
