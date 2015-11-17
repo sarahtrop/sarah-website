@@ -160,8 +160,7 @@
 }
 
 .appScreens img{
-    width:200px;
-    height:355px;
+    width:100px;
     position: center;
     filter: none;
 	-webkit-filter: none;
@@ -225,4 +224,8 @@ ul {
 	height: 200px;
 	padding-right: 5px;
 	padding-left: 5px;
+}
+
+.alignRight {
+	text-align: right;
 }
