@@ -1,0 +1,109 @@
+<!doctype html>
+<!-- credit to header to hellosunschein.com by Lea Sonnenschein -->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="images/dinosaur.png" type="image/x-icon">
+    <link rel="icon" href="images/dinosaur.png" type="image/x-icon">
+
+    <title>triSarahTrops</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css" />
+    <link href=' http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-43332662-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </head>
+  <body>
+  <div class="row">
+  <div class="wideContentBox">
+    <div class="large-12 columns">
+    <center>
+        <a href="http://www.trisarahtrops.com"><img class="logo" src="images/dinosaur.png"/></a>
+        <div class="social socialHeader">
+            <a href="mailto:sctrop@gmail.com?Subject=Hello!" target="_top"><i class="fi-mail"> </i></a>
+            <a href="https://github.com/sarahtrop" target="_blank"><i class="fi-social-github"> </i></a>
+            <a href="http://www.linkedin.com/pub/sarah-trop/85/b1b/252/en" target="_blank"><i class="fi-social-linkedin"> </i></a>
+            <a href="https://twitter.com/sarahctrop" target="_blank"><i class="fi-social-twitter"> </i></a>
+            <a href="https://medium.com/@trisarahtrops" target="_blank"><i class="fi-social-medium"> </i></a>
+            <a href="https://open.spotify.com/user/1221135775" target="_blank"><i class="fi-social-spotify"> </i></a>
+      </div>
+      </center>
+      </br>
+    </div>    
+  </div>
+    </div>
+    </div>
+
+  <div class="row head">
+    <div class="headertitle">evolution simulator</div>
+  </div>
+  </br>
+  <div class="large-10 large-centered columns">
+    <div class="row" style="center">
+
+      <span class="information about">
+          <p>The purpose of this program is to simulate the basic evolution of virtual creatures via natural selection. Creatures and plants are represented in data by pointers to C++ classes that are stored in one dimensional arrays. Upon the start of the program, 44 creatures (40 herbivores and 4 carnivores) are instantiated at random locations with all traits set to 128. A task queue is then initialized to assist with the program’s execution. In an infinite loop, the actions of the creatures for this tick are determined. This step is run in parallel via a thread queue as all creatures can act independently.</p>
+
+          <p>Afterwards, all creatures have their positions updated and collisions are detected and handled. Collisions require serial execution as this step requires creatures to be handled and modified in pairs and therefore doesn’t lend itself well to parallelization. To compensate, great care was taken to ensure only the code strictly necessary for a creature’s processing is run. After all creatures have been updated, new plants are generated. Plants and creatures are then drawn on a bitmap and statistics concerning the state of the simulation are recorded. The updated bitmap is displayed, and the program sleeps until a predetermined amount of time has passed between the start and end of this tick to preserve visual continuity.</p>
+
+          <p>This program was created as a final project for <a href="http://www.cs.grinnell.edu/~curtsinger/teaching/2016S/CSC213/" target="_blank">CSC 216: Operating Systems and Parallel Algorithms</a> at Grinnell College, in the spring of 2016. See the code and run it for yourself <a href="https://github.com/sarahtrop/213-project" target="_blank">here.</a></p>
+
+          <video id="Evo Simulator" src="images/evo.mov" preload controls></video>
+
+      </span>
+
+    </div>
+  </div>
+
+  </br>
+<!--
+  <div class="row head">
+    <div class="headertitle">text adventure</div>
+  </div>
+  </br>
+  <div class="large-10 large-centered columns">
+    <div class="row" style="center">
+
+      <span class="information about">
+          
+
+      </span>
+
+    </div>
+  </div>
+-->
+    <div class="row">
+      <div class="large-5 large-centered columns">
+        <div class="social">
+          <a href="mailto:sctrop@gmail.com?Subject=Hello!" target="_top"><i class="fi-mail"> </i></a>
+          <a href="https://github.com/sarahtrop" target="_blank"><i class="fi-social-github"> </i></a>
+          <a href="http://www.linkedin.com/pub/sarah-trop/85/b1b/252/en" target="_blank"><i class="fi-social-linkedin"> </i></a>
+          <a href="https://twitter.com/sarahctrop" target="_blank"><i class="fi-social-twitter"> </i></a>
+          <a href="https://medium.com/@trisarahtrops" target="_blank"><i class="fi-social-medium"> </i></a>
+          <a href="https://open.spotify.com/user/1221135775" target="_blank"><i class="fi-social-spotify"> </i></a>   
+        </div>
+      </div>
+    </div>
+    </br>
+    </br>
+
+</body>
+</html>
+
