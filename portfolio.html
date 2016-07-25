@@ -11,6 +11,9 @@
     <title>triSarahTrops</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css" />
@@ -29,6 +32,16 @@
       ga('create', 'UA-43332662-1', 'auto');
       ga('send', 'pageview');
 
+    $(document).ready(function(){ 
+      $('.variable-width').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+      });
+    });
     </script>
 
   </head>
@@ -81,22 +94,13 @@
 
             </br>
             <iframe width="438" height="930" src="//invis.io/4M71RNXY9" frameborder="0" allowfullscreen></iframe>
-            <!--
-              <img src="images/portfolio/kdic2.png">
-              <img src="images/portfolio/kdic3.png">
-              -->
           </div>
 
           <div class="large-6 columns appScreens">
           <iframe width="438" height="930" src="//invis.io/M52VL35HJ" frameborder="0" allowfullscreen></iframe>
-            <!-- 
-            <img src="images/portfolio/glicious1.png">
-            <img src="images/portfolio/glicious3.png">
-            -->
             </br>
 
             <span class="projectTitle"><b><em>SPARC - Publications</em></b></span>
-           <!-- <a href="http://github.com/GrinnellAppDev/KDIC-Radio-iOS" target="_blank"><i class="fi-social-apple"> </i></a> -->
             <a href="http://github.com/GrinnellAppDev/KDIC-Radio-Android" target="_blank"><i class="fi-social-android"> </i></a>
 
             <p>SPARC is the Student Publications and Radio Committee at Grinnell College, and this app is currently in the works for an all-encompassing publications app for campus. In this first stage, SPARC publications (like our school newspaper, our parody newspaper, the underground magazine, and the radio station) will have their articles displayed on the app, and students can subscribe or unsubscribe as they please to see all the articles from their favorite publications in one place. This prototype is a work in progress. </p>
@@ -115,7 +119,6 @@
     </br>
     <div class="large-10 large-centered columns">
       <div class="row" style="center">
-        <div class=""
         <span class="information about">
 
           <div class="variable-width">
@@ -124,6 +127,7 @@
             <div><img class="appLogo" src="images/portfolio/dino logo.png"></div>
             <div><img class="appLogo" src="images/portfolio/2017 sticker1.png"></div>
             <div><img class="appLogo" src="images/portfolio/color logo.jpg"></div>
+            <div><img class="appLogo" src="images/portfolio/contra_square.png"></div>
           </div>
 
       </div>
@@ -147,7 +151,7 @@
                 <p>When I joined Grinnell AppDev as a designer, my first project was to redesign the AppDev website members page. The first design (hexagons) was finished in December 2014, and the second iteration (tree) was finished in January of 2015 and was the first design I helped implement on the site using HTML and CSS. Now I am the webmaster of the site, and have implemented our newest members page design, finished in May 2015, and now oversee all website operations. We discovered that this design did not provide space for the information we wanted to have for each member on the page, so the tree design came out of wanting a design that gave us that ability. However in the spring of 2015 we had a large influx of trainees, so the tree design was scrapped for the current design of the page, designed by another member of our team, to consolidate space on the site with our large number of members.</p>
 
                 <center>
-                  <a href="images/portfolio/HD first draft.png" target="_blank"><img src="images/portfolio/HD first draft.png"></a>
+                 <!-- <a href="images/portfolio/HD first draft.png" target="_blank"><img src="images/portfolio/HD first draft.png"></a> -->
                   <a href="images/portfolio/draft scroll over.png" target="_blank"><img src="images/portfolio/draft scroll over.png"></a>
                   <a href="images/portfolio/tree draft.png" target="_blank"><img src="images/portfolio/tree draft.png"></a>
                 </center>
@@ -202,7 +206,7 @@
     </div>
 
     </br>
-
+<!--
   <div class="row head">
       <a name="paint jump"><div class="headertitle">painting</div></a>
   </div>
@@ -216,37 +220,26 @@
       </div>
       </br>
 
+<div class="large-10 large-centered columns">
+      <div class="row" style="center">
+        <span class="information about">
 
-      <div class="large-10 large-centered columns">
-        <div class="row" style="center">
-            <div class="row painting">
-                <center>
-                  <img src="images/peacock.jpg">
-                  <img src="images/bluebfly.jpg">
-                  <img src="images/smallturtle.jpg">
-                  <img src="images/sunflower.jpg">
-                </center>
-              </div>
-            </br>
-              <div class="row painting">
-                <center>
-                  <img src="images/rowing.JPG">
-                </center>
-              </div>
-              </br>
-              <div class="row painting">
-                <center>
-                  <img src="images/fire.jpg">
-                  <img src="images/hawaii.jpg">
-                  <img src="images/lotl.jpg">
-                  <img src="images/orangebfly.jpg">
-                </center>
-              </div>
-              </br><br>
+          <div class="variable-width">
+            <div><img src="images/peacock.jpg"></div>
+            <div><img src="images/bluebfly.jpg"></div>
+            <div><img src="images/smallturtle.jpg"></div>
+            <div><img src="images/sunflower.jpg"></div>
+            <div><img src="images/rowing.JPG"></div>
+            <div><img src="images/fire.jpg"></div>
+            <div><img src="images/hawaii.jpg"></div>
+            <div><img src="images/lotl.jpg"></div>
+            <div><img src="images/orangebfly.jpg"></div>
           </div>
-        </div>
-
-
+        </span>
+      </div>
+    </br><br>
+  </div>
+-->
 
   <div class="row">
   <div class="large-5 large-centered columns">
@@ -261,23 +254,6 @@
     </div>
     </br>
     </br>
-
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-
-  <script type="text/javascript">
-  $(document).ready(function(){ 
-    $('.variable-width').slick({
-      dots: true,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      centerMode: true,
-      variableWidth: true
-    });
-  });
-  </script>
 
 </body>
 </html>
