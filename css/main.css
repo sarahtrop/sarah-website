@@ -237,3 +237,14 @@ ul {
 	padding-right: 5px;
 	padding-left: 5px;
 }
+
+/* NAVIGATION AT TOP OF PAGE */
+.nav a {
+	font-size: 13pt;
+	color: #BF88F2;
+}
+
+.nav a:hover {
+	color: #61219A;
+}
+
