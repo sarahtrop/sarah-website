@@ -17,6 +17,7 @@
     <link href=' http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -91,6 +92,9 @@
 
             <p>Check out our <a href="http://blendedanimation.wordpress.com">blog</a>, tracking our progress throughout the project! We will be updating it weekly, if not more often, for the entire semester.</p>
 
+            <!-- start feedwind code --> 
+            <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="17789/"></script> 
+            <!-- end feedwind code -->
         </span>
 
       </div>
@@ -181,6 +185,59 @@
     </div>
     </br>
     </br>
+
+<!-- JAVASCRIPT -->
+<script type="text/javascript">
+$(function() {
+  function get_widget() {
+    var widget_id = undefined;
+    var widget_parameter = '';
+    
+    widget_parameter = '{"type":"","sources":[{"source":"http://blendedanimation.wordpress.com/?feed=rss","type":"RSS"}],"name":"","width":0,"height":"400","height_by_article":0,"target":"_blank","font":"Arial, Helvetica, sans-serif","title_font_size":"16","item_title_font_size":"16","item_description_font_size":"12","border":"on","css_url":"","responsive":"on","text_direction":"left","text_alignment":"left","corner":"rounded","scroll_switch":"on","scroll_style":"vs","scroll":"on","navigation_arrow":"on","auto_scroll":"on","auto_scroll_direction":"up","auto_scroll_step_speed":"4","auto_scroll_mc_speed":"20","sort":"new","title":"on","title_sentence":"","title_link":"","title_bgcolor":"#99cc00","title_color":"#505659","title_bgimage":"","item_bgcolor":"#ffffff","item_bgimage":"","item_title_length":"55","item_title_color":"#2e7ec8","item_border_bottom":"on","item_description":"both","item_link":"off","item_description_length":"100","item_description_color":"#505659","item_date":"on","item_date_format":"%b %e, %Y %k:%M","item_date_timezone":"","item_description_style":"thumbnail","item_thumbnail":"crop","item_thumbnail_selection":"auto","item_thumbnail_force_https":"off","article_num":"15","item_player":"youtube","keyword_inc":"","keyword_exc":""}';
+    $.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
+      options.async = true;
+    });
+    $.post('https://feed.mikle.com/api/widget/read/', {widget_id: widget_id, widget_parameter: widget_parameter, format: 'html'}, function (data) {
+      if (data.status == 'ok') {
+        $('#loading').fadeOut('fast', function() {
+          if (data.response.expired) {
+            $('#error').html(data.message);
+            $('#error').show();
+          } else {
+            $('body').html(data.response.widget);
+
+            if ($('#fw-custom-css[data-fw-css-href]')[0]) {
+              var href = $('#fw-custom-css').attr('data-fw-css-href');
+                            if (href.match(/^http:\/\//)) {
+                $('#fw-custom-css').attr('href', 'https://feed.mikle.com/api/proxy/' + href);
+              } else {
+                $('#fw-custom-css').attr('href', href);
+              }
+                          }
+
+            $('img[data-fw-img-src]').each(function(){
+              var src = $(this).attr('data-fw-img-src');
+                            if (src.match(/^http:\/\//)) {
+                $(this).attr('src', 'https://feed.mikle.com/api/proxy/' + src);
+              } else {
+                $(this).attr('src', src);
+              }
+                          });
+          }
+        });
+      } else {
+        $('#loading').fadeOut('fast', function() {
+          $('#error').html(data.message);
+          $('#error').show();
+        });
+      }
+    }, 'json');
+
+  }
+  
+  get_widget();
+});
+</script>
 
 </body>
 </html>
